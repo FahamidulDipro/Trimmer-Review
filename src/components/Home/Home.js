@@ -1,9 +1,11 @@
 import { Button } from "bootstrap";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import useReviews from "../../Hooks/useReviews";
 import trimmer from "../../images/trimmer.jpg";
 import "./Home.css";
 const Home = () => {
+  const [reviews] = useReviews();
   return (
     <div className="mt-5 container">
       <Container fluid>
@@ -23,6 +25,7 @@ const Home = () => {
         </Row>
       </Container>
 
+      {/* Customer Review Section */}
       <Container fluid className="customer-review">
         <h1>Customer Reviews</h1>
         <button className="btn btn-primary mt-5">See All Reviews</button>
