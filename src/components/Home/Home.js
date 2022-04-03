@@ -3,6 +3,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import useReviews from "../../Hooks/useReviews";
 import trimmer from "../../images/trimmer.jpg";
+import Reviews from "../Reviews/Reviews";
 import "./Home.css";
 const Home = () => {
   const [reviews] = useReviews();
@@ -28,6 +29,14 @@ const Home = () => {
       {/* Customer Review Section */}
       <Container fluid className="customer-review">
         <h1>Customer Reviews</h1>
+        <Container>
+          <Row>
+            {reviews.map((review) => (
+              <Reviews key={review.id} review={review}></Reviews>
+            ))}
+          </Row>
+        </Container>
+
         <button className="btn btn-primary mt-5">See All Reviews</button>
       </Container>
     </div>
