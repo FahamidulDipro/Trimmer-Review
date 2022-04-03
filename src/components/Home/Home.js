@@ -6,7 +6,7 @@ import trimmer from "../../images/trimmer.jpg";
 import Reviews from "../Reviews/Reviews";
 import "./Home.css";
 const Home = () => {
-  const x = useContext(ReviewContext);
+  const reviews = useContext(ReviewContext);
 
   return (
     <div className="mt-5 container">
@@ -32,9 +32,11 @@ const Home = () => {
         <h1>Customer Reviews</h1>
         <Container>
           <Row>
-            {x.map((review) => (
-              <Reviews key={review.id} review={review}></Reviews>
-            ))}
+            {reviews
+              .map((review) => (
+                <Reviews key={review.id} review={review}></Reviews>
+              ))
+              .slice(0, 3)}
             {/* <Reviews></Reviews> */}
           </Row>
         </Container>

@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { Button, Card } from "react-bootstrap";
+import { Button, Card, Container, Row } from "react-bootstrap";
 import Navigation from "./components/Navigation/Navigation";
 import Home from "./components/Home/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -28,9 +28,15 @@ function App() {
           <Route path="/blogs" element={<Blogs></Blogs>}></Route>
           <Route
             path="/reviews"
-            element={reviews.map((review) => (
-              <Reviews key={review.id} review={review}></Reviews>
-            ))}
+            element={
+              <Container>
+                <Row>
+                  {reviews.map((review) => (
+                    <Reviews key={review.id} review={review}></Reviews>
+                  ))}
+                </Row>
+              </Container>
+            }
           ></Route>
           <Route path="*" element={<NotFound></NotFound>}></Route>
         </Routes>
