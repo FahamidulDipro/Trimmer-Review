@@ -2,6 +2,7 @@ import React from "react";
 import { Card, Col } from "react-bootstrap";
 
 const Reviews = (props) => {
+  //   const { reviews } = props;
   const { picture, name, ratings, review } = props.review;
   return (
     <Col lg={3} className="m-5">
