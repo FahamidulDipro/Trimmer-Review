@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import { ReviewContext } from "../../App";
 import useReviews from "../../Hooks/useReviews";
 import trimmer from "../../images/trimmer.jpg";
@@ -37,11 +38,14 @@ const Home = () => {
                 <Reviews key={review.id} review={review}></Reviews>
               ))
               .slice(0, 3)}
-            {/* <Reviews></Reviews> */}
           </Row>
         </Container>
 
-        <button className="btn btn-primary mt-5">See All Reviews</button>
+        <button className="btn btn-primary my-5">
+          <Link to={"/reviews"} className="text-decoration-none text-light">
+            See All Reviews
+          </Link>
+        </button>
       </Container>
     </div>
   );
