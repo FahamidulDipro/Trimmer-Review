@@ -10,7 +10,7 @@ const Home = () => {
   const reviews = useContext(ReviewContext);
 
   return (
-    <div className="mt-5 container">
+    <div className="container margin-top">
       <Container fluid>
         <Row>
           <Col md={6} sm={12}>
@@ -29,7 +29,7 @@ const Home = () => {
       </Container>
 
       {/* Customer Review Section */}
-      <Container fluid className="customer-review">
+      <Container fluid className="margin-top">
         <h1>Customer Reviews</h1>
         <Container>
           <Row>

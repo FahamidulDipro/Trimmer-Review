@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import "./Navigation.css";
 const Navigation = () => {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg"  fixed="top" >
       <Container>
         <Navbar.Brand href="/">Trimmer Review</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
