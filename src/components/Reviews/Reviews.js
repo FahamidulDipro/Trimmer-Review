@@ -1,5 +1,8 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar, faStarHalf } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import { Card, Col } from "react-bootstrap";
+
 const Reviews = (props) => {
   //   const { reviews } = props;
   const { picture, name, ratings, review } = props.review;
@@ -25,7 +28,10 @@ const Reviews = (props) => {
         <Card.Body className="text-start">
           <Card.Title>{name}</Card.Title>
           <Card.Text>{review}</Card.Text>
-          <Card.Text>Ratings: {ratings}</Card.Text>
+          <Card.Text style={{ fontSize: "20px", fontWeight: "bold" }}>
+            Ratings:{" "}
+            <b style={{ color: "goldenrod", fontSize: "20px" }}>{ratings}</b>
+          </Card.Text>
         </Card.Body>
       </Card>
     </Col>

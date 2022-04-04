@@ -6,7 +6,7 @@ const Navigation = () => {
   return (
     <Navbar bg="light" expand="lg"  fixed="top" >
       <Container>
-        <Navbar.Brand href="/">Trimmer Review</Navbar.Brand>
+        <Navbar.Brand href="/"><b style={{fontSize:'30px'}}>Trimmer Review</b></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

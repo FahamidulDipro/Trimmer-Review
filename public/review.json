@@ -3,49 +3,49 @@
     "id": "6249e621433b108b1b4723b2",
     "picture": "images/2.jpg",
     "name": "Massey Ingram",
-    "ratings": 5.0,
+    "ratings": "5.0",
     "review": "If you want a reliable tool that can cut thick hair down to a stubble—and you don’t mind wrangling a power cord—we recommend this amazing trimmer "
   },
   {
     "id": "6249e6214992d9525aabed03",
     "picture": "images/user7.jpg",
     "name": "Liz Hutchinson",
-    "ratings": 4.5,
+    "ratings": "4.5",
     "review": " It’s stronger than any cordless trimmer we’ve tried, yet it’s lighter, smaller, more maneuverable, and easier to maintain than other pro trimmers and clippers, which tend toward tanklike construction."
   },
   {
     "id": "6249e621709d4b060052979b",
     "picture": "images/user3.jpg",
     "name": "Rosalyn Mccormick",
-    "ratings": 4.0,
+    "ratings": "4.0",
     "review": "Poor battery life is the biggest downside: You’ll probably have to charge it every week, particularly if you’re trimming a thick beard. But overall it's Great!"
   },
   {
     "id": "6249e621a0c9afa5562a4e3b",
     "picture": "images/user4.jpg",
     "name": "Madden Duke",
-    "ratings": 4.5,
+    "ratings": "4.5",
     "review": "If a low price is your highest priority, you definitely need to buy this trimmer."
   },
   {
     "id": "6249e6212d3bb699d819f76e",
     "picture": "images/user5.jpg",
     "name": "Goodman Howard",
-    "ratings": 5.0,
+    "ratings": "5.0",
     "review": "This product was amazing, awesome and budget friendly. Worth buying."
   },
   {
     "id": "6249e6219fd97a596da6f5cc",
     "picture": "images/user6.jpg",
     "name": "Dale Justice",
-    "ratings": 5.0,
+    "ratings": "5.0",
     "review": "Using this trimmer for five years, absolutly worth it."
   },
   {
     "id": "6249e6212bbba0ad54f246b4",
     "picture": "images/user1.jpeg",
     "name": "Sherman Gross",
-    "ratings": 4.5,
+    "ratings": "4.5",
     "review": " but its body is made mostly from plastic rather than stainless steel. But plastic quality was decent."
   }
 ]
