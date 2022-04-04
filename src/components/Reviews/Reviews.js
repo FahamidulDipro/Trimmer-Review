@@ -4,17 +4,23 @@ const Reviews = (props) => {
   //   const { reviews } = props;
   const { picture, name, ratings, review } = props.review;
   return (
-    <Col lg={3} style={{ marginTop: "200px" }}>
+    <Col lg={3} style={{ margin: "150px 20px 20px 20px" }}>
       <Card
         style={{
           width: "20rem",
           padding: "20px",
         }}
+        className="shadow-lg"
       >
         <Card.Img
           variant="top"
           src={picture}
-          style={{ height: "100px", width: "100px", marginLeft: "100px" }}
+          style={{
+            height: "100px",
+            width: "100px",
+            marginLeft: "20px",
+            borderRadius: "20px",
+          }}
         />
         <Card.Body className="text-start">
           <Card.Title>{name}</Card.Title>
