@@ -10,30 +10,30 @@ const Navigation = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <NavLink to="/" className={"mx-2 text-dark text-decoration-none"}>
+            <NavLink to="/" className={({isActive})=>(isActive?'active-link':'link')}>
               Home
             </NavLink>
             <NavLink
               to="/reviews"
-              className={"mx-2 text-dark text-decoration-none"}
+              className={({isActive})=>(isActive?'active-link':'link')}
             >
               Reviews
             </NavLink>
             <NavLink
               to="/dashboard"
-              className={"mx-2 text-dark text-decoration-none"}
+              className={({isActive})=>(isActive?'active-link':'link')}
             >
               Dashboard
             </NavLink>
             <NavLink
               to="/blogs"
-              className={"mx-2 text-dark text-decoration-none"}
+              className={({isActive})=>(isActive?'active-link':'link')}
             >
               Blogs
             </NavLink>
             <NavLink
               to="/about"
-              className={"mx-2 text-dark text-decoration-none"}
+              className={({isActive})=>(isActive?'active-link':'link')}
             >
               About
             </NavLink>
