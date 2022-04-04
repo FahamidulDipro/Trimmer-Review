@@ -11,7 +11,11 @@ const Reviews = (props) => {
           padding: "20px",
         }}
       >
-        <Card.Img variant="top" src={picture} />
+        <Card.Img
+          variant="top"
+          src={picture}
+          style={{ height: "100px", width: "100px", marginLeft: "100px" }}
+        />
         <Card.Body className="text-start">
           <Card.Title>{name}</Card.Title>
           <Card.Text>{review}</Card.Text>
