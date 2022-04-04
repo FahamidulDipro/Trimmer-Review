@@ -38,7 +38,7 @@ const Dashboard = () => {
           <Line
             type="monotone"
             dataKey="sell"
-            stroke="#8884d8"
+            stroke="#317773"
             activeDot={{ r: 8 }}
           />
           <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
@@ -73,15 +73,15 @@ const Dashboard = () => {
                 type="monotone"
                 dataKey="investment"
                 stackId="1"
-                stroke="#8884d8"
-                fill="#8884d8"
+                stroke="  #E2D1F9"
+                fill=" #E2D1F9"
               />
               <Area
                 type="monotone"
                 dataKey="revenue"
                 stackId="1"
-                stroke="#82ca9d"
-                fill="#82ca9d"
+                stroke="#317773"
+                fill="#317773"
               />
             </AreaChart>
           </div>
