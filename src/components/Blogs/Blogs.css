@@ -1,0 +1,11 @@
+.blog {
+  margin-top: 200px;
+}
+.blog h1 {
+  color: peru;
+  margin-top: 100px;
+}
+.blog p {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
